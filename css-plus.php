@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: CSS Plus
-Plugin URI: http://pauloklixto.com/2012/07/16/css-plus-wordpress-plugin-2/
+Plugin URI: https://github.com/dchenk/css-plus
 Description: Add CSS box in your specific pages, posts or custom posts.
-Version: 2.0.0
+Version: 2.0.1
 Author: Paulo E. Calixto
 Author URI: http://pauloklixto.com
 License: GPL2
@@ -26,16 +26,13 @@ Domain Path: /langs
 // along with this program; if not, write to the Free Software
 
 class CssPlus {
-
-	const Version = '2.0.0';
+	const Version = '2.0.1';
 
 	const CodeMirrorVersion = '5.42.0';
 
 	const metaKey = '_css_code';
 
 	/**
-	 * CssPlus constructor.
-	 *
 	 * This function registers the hooks and filters used within the plugin.
 	 */
 	public function __construct() {
@@ -136,7 +133,6 @@ class CssPlus {
 			}
 		}
 	}
-
 }
 
 $CssPlus = new CssPlus;

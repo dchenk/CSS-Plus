@@ -1,4 +1,4 @@
-(function() {
+(() => {
 	const ta = document.getElementById("css-plus-code");
 	if (!ta) { return; }
 	const editor = CodeMirror.fromTextArea(ta, {
@@ -11,7 +11,7 @@
 		indentUnit: 4,
 		indentWithTabs: true
 	});
-	editor.on("changes", function(inst) {
+	editor.on("changes", (inst) => {
 		ta.value = inst.getValue();
 	});
 })();

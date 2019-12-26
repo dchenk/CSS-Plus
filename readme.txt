@@ -3,7 +3,7 @@ Contributors: paulo4lzn, widerwebs
 Tags: admin, posts, page, css, style, stylesheet, stylesheets, personal style, frontend, front, html style, best css, plus, specif page, specif post, css post, custom css, css editor
 Requires at least: 5.0
 Tested up to: 5.2.2
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 
 CSS Plus is a plugin that adds a css editor in all posts, pages, and custom posts.
 
@@ -47,6 +47,10 @@ Submit your <a href="https://github.com/dchenk/css-plus">suggestions</a>.
 Your theme need to have the wp_head() tag applied in the <head> <a href="https://codex.wordpress.org/Function_Reference/wp_head">See more here.</a>
 
 == Change Log ==
+
+= 2.0.1 =
+* Verify compatibility with WP core 5.2.2
+* Minor cleanups
 
 = 2.0.0 =
 * Upgrade CodeMirror dependency.
