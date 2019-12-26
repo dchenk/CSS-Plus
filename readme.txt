@@ -1,11 +1,11 @@
 === CSS Plus ===
-Contributors: paulo4lzn
+Contributors: paulo4lzn, widerwebs
 Tags: admin, posts, page, css, style, stylesheet, stylesheets, personal style, frontend, front, html style, best css, plus, specif page, specif post, css post, custom css, css editor
-Requires at least: 4.9
-Tested up to: 5.0.2
+Requires at least: 5.0
+Tested up to: 5.2.2
 Stable tag: 2.0.0
 
-CSS Plus is a plugin that adds a css editor in all posts, pages and custom posts.
+CSS Plus is a plugin that adds a css editor in all posts, pages, and custom posts.
 
 == Description ==
 
@@ -26,7 +26,7 @@ Please read the <a href="http://cssplusplugin.wordpress.com/reading-material/">F
 
 If you are unable to resolve your problem with the information provided in the FAQ please submit a <a href="http://cssplusplugin.wordpress.com/contact/">support request</a>.
 
-<a href="https://github.com/dchenk/css-plus/">Contribute</a>
+<a href="https://github.com/dchenk/css-plus">Contribute</a>
 
 = Usage =
 
@@ -34,25 +34,17 @@ If you are unable to resolve your problem with the information provided in the F
 
 = Suggestions =
 
-Submit your <a href="https://github.com/dchenk/css-plus/">suggestions</a>.
+Submit your <a href="https://github.com/dchenk/css-plus">suggestions</a>.
 
 == Installation ==
 
-1. Extract css-plus.zip to your `wp-content/plugins` directory.
+1. Extract css-plus.zip to your `plugins` directory.
 2. In the admin panel, under plugins activate CSS Plus.
 3. CSS Plus will appear in the post editing page.
 
 = Attention =
 
-Your theme need to have the wp_head() tag applied in the <head> <a href="http://codex.wordpress.org/Function_Reference/wp_head">See more here.</a>
-
-== Frequently Asked Questions ==
-
-= Other Problems =
-
-If you have read and tried the above and you are still having problems, then, please post your issues, in detail (links, error messages) to my site.
-
-<a href="http://cssplusplugin.wordpress.com/reading-material/">http://cssplusplugin.wordpress.com/reading-material/</a>
+Your theme need to have the wp_head() tag applied in the <head> <a href="https://codex.wordpress.org/Function_Reference/wp_head">See more here.</a>
 
 == Change Log ==
 
@@ -135,13 +127,3 @@ If you have read and tried the above and you are still having problems, then, pl
 = 1.1 Beta =
 * Initial release.
 
-== Upgrade Notice ==
-
-
-== Special Thanks ==
-
-== More Information ==
-
-<a href="mhttp://cssplusplugin.wordpress.com/contact/">Send your blog with CSS Plus to our gallery</a>
-
-<a href="http://twitter.com/pauloklixto">Twitter - </a><a href="http://cssplusplugin.wordpress.com/reading-material/">Wiki - </a><a href="http://cssplusplugin.wordpress.com">Developer Blog</a>
